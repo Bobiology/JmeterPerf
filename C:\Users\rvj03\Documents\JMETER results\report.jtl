@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1607080794968,747,Posting POSTS,201,Created,Sample Thread Group 1-1,text,true,,1178,248,1,1,http://jsonplaceholder.typicode.com/posts,744,0,363
+1607081173456,750,Posting POSTS,201,Created,Sample Thread Group 1-1,text,true,,1188,248,1,1,http://jsonplaceholder.typicode.com/posts,746,0,359

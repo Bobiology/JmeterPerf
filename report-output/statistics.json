@@ -1,0 +1,62 @@
+{
+  "Open example.com" : {
+    "transaction" : "Open example.com",
+    "sampleCount" : 2,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 643.0,
+    "minResTime" : 638.0,
+    "maxResTime" : 648.0,
+    "pct1ResTime" : 648.0,
+    "pct2ResTime" : 648.0,
+    "pct3ResTime" : 648.0,
+    "throughput" : 0.5842827928717499,
+    "receivedKBytesPerSec" : 0.9186477505112475,
+    "sentKBytesPerSec" : 0.06333534180543383
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 3,
+    "errorPct" : 60.0,
+    "meanResTime" : 303.2,
+    "minResTime" : 0.0,
+    "maxResTime" : 648.0,
+    "pct1ResTime" : 648.0,
+    "pct2ResTime" : 648.0,
+    "pct3ResTime" : 648.0,
+    "throughput" : 1.3347570742124935,
+    "receivedKBytesPerSec" : 2.537341914709023,
+    "sentKBytesPerSec" : 0.05787423251468233
+  },
+  "TRANSACTION CONTROLLER" : {
+    "transaction" : "TRANSACTION CONTROLLER",
+    "sampleCount" : 1,
+    "errorCount" : 1,
+    "errorPct" : 100.0,
+    "meanResTime" : 984.0,
+    "minResTime" : 984.0,
+    "maxResTime" : 984.0,
+    "pct1ResTime" : 984.0,
+    "pct2ResTime" : 984.0,
+    "pct3ResTime" : 984.0,
+    "throughput" : 1.016260162601626,
+    "receivedKBytesPerSec" : 3.9191517403455287,
+    "sentKBytesPerSec" : 0.1101610137195122
+  },
+  "mglobe.io" : {
+    "transaction" : "mglobe.io",
+    "sampleCount" : 3,
+    "errorCount" : 3,
+    "errorPct" : 100.0,
+    "meanResTime" : 76.66666666666666,
+    "minResTime" : 0.0,
+    "maxResTime" : 230.0,
+    "pct1ResTime" : 230.0,
+    "pct2ResTime" : 230.0,
+    "pct3ResTime" : 230.0,
+    "throughput" : 0.800854244527496,
+    "receivedKBytesPerSec" : 1.697904848505072,
+    "sentKBytesPerSec" : 0.0
+  }
+}
