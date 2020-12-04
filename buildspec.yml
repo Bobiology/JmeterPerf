@@ -1,6 +1,4 @@
-env:
-  variables:
-    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
+version: 0.2
 phases:
   install:
     commands:
