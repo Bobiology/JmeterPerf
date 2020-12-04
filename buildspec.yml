@@ -1,10 +1,18 @@
 version: 0.2
+env:
+  variables:
+   JAVA_HOME: "/usr/lib/jvm/java"
+   MAVEN_HOME: "/usr/local/apache-maven"
 phases:
   install:
     commands:
       - echo Entered the install phase...
-      - apt-get update -y
-      - apt-get install -y maven
+      - sudo yum install java-1.8.0-devel
+      - sudo /usr/sbin/alternatives --config java
+      - sudo /usr/sbin/alternatives --config javac
+      - sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+      - sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+      - sudo yum install -y apache-maven
     finally:
       - echo This always runs even if the update or install command fails
   pre_build:
